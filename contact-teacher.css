@@ -273,7 +273,7 @@ body {
   grid-column: full-start / full-end; }
 
 
-.footer {
+.footer{
   grid-row: 3 / 4;
   grid-column: full-start / full-end; }
 
