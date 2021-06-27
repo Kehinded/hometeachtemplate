@@ -175,42 +175,37 @@
         margin-bottom: 1.5rem; }
 
 .notification-show {
-  position: relative;
-  cursor: pointer; }
-  @media only screen and (min-width: 75em) {
-    .notification-show:hover .notification-box {
-      display: block; } }
-  .notification-show .notification-box {
-    position: absolute;
-    top: 180%;
-    left: -700%;
-    width: 28rem;
-    background-color: #fff;
-    box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.2);
-    z-index: 300;
-    padding: 2rem;
-    font-weight: 700;
-    display: none;
-    transition: all .4s; }
-    @media only screen and (max-width: 77em) {
-      .notification-show .notification-box {
-        left: none;
-        right: 500%; } }
-    @media only screen and (max-width: 38em) {
-      .notification-show .notification-box {
-        left: -1000%; } }
-    @media only screen and (max-width: 20em) {
-      .notification-show .notification-box {
-        left: -900%; } }
-    .notification-show .notification-box .notification-text {
-      font-size: 1.3rem;
-      color: rgba(0, 0, 0, 0.7);
-      text-transform: none;
-      text-align: center; }
-    .notification-show .notification-box .notification-list {
-      list-style: none; }
-      .notification-show .notification-box .notification-list > *:not(:last-child) {
-        margin-bottom: 1.5rem; }
+    position: relative;
+    cursor: pointer; }
+    @media only screen and (min-width: 75em) {
+      .notification-show:hover .notification-box {
+        display: block; } }
+    .notification-show .notification-box {
+      position: absolute;
+      top: 180%;
+      left: -700%;
+      width: 28rem;
+      background-color: #fff;
+      box-shadow: 0.1rem 0.1rem 0.4rem rgba(0, 0, 0, 0.2);
+      z-index: 300;
+      padding: 2rem;
+      font-weight: 700;
+      display: none;
+      transition: all .4s; }
+      @media only screen and (max-width: 77em) {
+        .notification-show .notification-box {
+          left: none;
+          right: 500%; } }
+      .notification-show .notification-box .notification-text {
+        font-size: 1.3rem;
+        color: rgba(0, 0, 0, 0.7);
+        text-transform: none;
+        text-align: center; }
+      .notification-show .notification-box .notification-list {
+        list-style: none; }
+        .notification-show .notification-box .notification-list > *:not(:last-child) {
+          margin-bottom: 1.5rem; }
+  
 
 .js-sroll {
   opacity: 0; }
